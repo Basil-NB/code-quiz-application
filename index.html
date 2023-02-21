@@ -9,9 +9,20 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+    <section class="score-timer">
+        <div class= "card-timer">
+            <h3>Time:</h3>
+            <div class = "timer-text">
+            <div class="large-font timer-count">10</div>
+        </div>
+        <div class="highscore">
+            <a href="">View Highscore</a>
+        </div>
+    </section>
+    
     <section class='container'>
         <div id="question-container" class="hide">
-            <div class="question">question</div>
+            <div class="question">Question</div>
             <div class="answer-buttons">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
@@ -22,7 +33,15 @@
     </section>
 
     <section class="controls">
-        <button class="start-button">Start</button>
+        <div class="quiz-start">
+            <h1>Coding Quiz Challenge</h1>
+            <br>
+            <p>Try to answer the following questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds. Good Luck!</p>
+        </div>
+        <button id="start-button" class="start-button">Start</button>
     </section>
+
+    
+    <script src=".\assets\.js"></script>
 </body>
 </html>
